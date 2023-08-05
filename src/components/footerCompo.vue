@@ -1,7 +1,7 @@
 <template>
-    <div class="main container-fluid  d-flex justify-content-center align-items-center flex-column">
-        <div>
-            <h3>A collection of branding 
+    <div class="main container-fluid d-flex justify-content-center align-items-center flex-column">
+        <div class="">
+            <h3 class="fs-3">A collection of branding 
                 and problem solving, 
                 partnering with companies
                 doing great things to help 
@@ -13,16 +13,16 @@
         <div class="header  m-4 text-center">
             <p class="fw-bolder d-inline">Socail Contacts</p>
 
-            <ul class="d-flex mx-auto">
-                <li>
+            <ul class="d-flex justify-content-center align-items-center row">
+                <li class="col-lg-3 col-md-6 col-sm-12">
                     <a href="#">facebook</a>
                 </li>
                 
-                <li>
+                <li class="col-lg-3 col-md-6 col-sm-12">
                     <a href="#">viber</a>
                 </li>
                 
-                <li>
+                <li class="col-lg-3 col-md-6 col-sm-12">
                     <a href="#">linkedin</a>
                 </li>
             </ul>
@@ -54,11 +54,12 @@ export default {
     }
 
     h3{
-        width: 500px;
+        min-width: 350px;
+        max-width: 500px;
         color: #fff;
         line-height: 35px;
 
-        margin: 60px 0 0 0;
+        margin: 1rem 0;
     }
 
     .header p{
@@ -91,6 +92,7 @@ export default {
     }
 
     .header ul{
+        margin: 0;
         padding: 0;
 
     }
@@ -99,8 +101,8 @@ export default {
         font-size: 18px;
         list-style: none;
         
-        margin: 20px;
-        padding: 5px 10px; 
+        margin: 10px;
+        padding: 5px 0; 
 
     }
     .header ul li a{
@@ -108,8 +110,10 @@ export default {
         color: #7900B2;
         font-weight: bold;
         text-transform: uppercase;
-        letter-spacing: 2px;
+        /* letter-spacing: 2px; */
         font-size: 16px;
+
+        padding: 5px;
 
         transition: color .3s ease-in-out;
     }

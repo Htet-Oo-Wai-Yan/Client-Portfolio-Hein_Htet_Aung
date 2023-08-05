@@ -1,13 +1,15 @@
 <template>
-    <div class="main container-fluid p-4 description d-flex justiy-content-evenly align-items-center flex-column">
+    <div class="main container-fluid p-4 description d-lg-flex justiy-content-lg-evenly align-items-lg-center flex-column ">
         <div class="header text-center">
             <p class="fw-bolder d-inline">About Me</p>
             <h3 class="fw-bold my-3">A little bit about my goal & vision</h3>
         </div>
-        <div class="description d-flex justiy-content-between align-items-center p-3 m-2">
-            <img src="../assets/profile_images/tempo_profile2.jpg" alt="profile2">
-            
-           <div class="container-fluid about-me-desc mx-4 lh-lg">
+        <div class="description d-flex justiy-content-center align-items-center p-3 m-2 row">
+            <div class="col-lg-5 col-md-12 my-4">
+                <img class="img-fluid rounded d-block mx-auto" src="../assets/profile_images/tempo_profile2.jpg" alt="profile2">
+            </div>
+           
+            <div class="container-fluid col-lg-5 col-md-12 about-me-desc mx-auto lh-lg">
                 <p>
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates, debitis nihil! Qui provident, deleniti consequuntur iste quisquam aut facere eaque assumenda excepturi, dolor odio, quasi aliquid rerum eum dolore repellendus?
                 </p>

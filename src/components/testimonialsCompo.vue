@@ -5,7 +5,7 @@
             <h3 class="fw-bold my-3">Honest Reviews From my clients</h3>
         </div>
 
-        <div class="description">
+        <div class="description  d-flex justiy-content-evenly align-items-center flex-column">
             <reviewcard></reviewcard>
             <reviewcard></reviewcard>
             <reviewcard class="last"></reviewcard>

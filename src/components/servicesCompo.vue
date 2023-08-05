@@ -5,10 +5,11 @@
             <h3 class="fw-bold my-3">We Can Fix your digital problems online..</h3>
         </div>
 
-        <div class="description d-flex justify-content-between align-items-center text-center my-4">
-            <servicecard></servicecard>
-            <servicecard></servicecard>
-            <servicecard class="last"></servicecard>
+        <div class="description-con mx-auto grid row p-4">
+            <servicecard class="col-lg-3 col-md-6 col-sm-12"></servicecard>
+            <servicecard class="col-lg-3 col-md-6 col-sm-12"></servicecard>
+            <servicecard class="col-lg-3 col-md-6 col-sm-12"></servicecard>
+            <servicecard class="col-lg-3 col-md-6 col-sm-12 last"></servicecard>
         </div>
     </div>
 </template>
@@ -69,5 +70,9 @@ export default {
 
     .header h3{
         color: #fff;
+    }
+
+    .description-con{
+        margin-top: 2em;
     }
 </style>

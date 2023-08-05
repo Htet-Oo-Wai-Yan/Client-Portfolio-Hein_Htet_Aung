@@ -1,14 +1,16 @@
 <template>
-    <div class="main container-fluid  p-4 d-flex align-items-center justify-content-evenly">
+    <div class="main container-fluid  p-4 d-flex align-items-center justify-content-evenly row ">
         
-        <div class="description lh-lg" >
+        <div class="description lh-lg col-lg-5 col-md-12 my-4" >
             <h1 class="fw-bolder fs-1">Lorem ipsum dolor sit amet</h1>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi voluptates nulla enim optio a debitis quasi quam odio quod magni quos maxime, harum veritatis provident repudiandae commodi alias? Alias, delectus.</p>
             <button><a href="#" class="fw-bold">Contact Me</a></button>
         </div>
 
-        <img class="profile-image" src="../assets/profile_images/profile.png" alt="profile image">
-    </div>
+        <div class="col-lg-5 col-md-12 d-lg-block d-none d-lg-blcok">
+            <img class="img-fluid profile-image" src="../assets/profile_images/profile.png" alt="profile image">
+        </div>
+</div>
 </template>
 
 <script>
@@ -25,7 +27,7 @@ export default {
 }
 
 .main{
-    background-color: #000;
+    background-color: #111;
     font-family: 'REM', sans-serif;
 
 }

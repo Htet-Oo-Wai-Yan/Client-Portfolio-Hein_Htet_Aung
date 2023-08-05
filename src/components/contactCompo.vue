@@ -5,29 +5,37 @@
             <h3 class="fw-bold my-3">Contact Me If You wanna solve your Problems</h3>
         </div>
 
-    <div class="description d-flex justify-content-between align-items-center">
+    <div class="description d-flex justify-content-center align-items-center">
         
         <div class="form">
-            <form action="#" class="">
+            <form action="#" class="row">
 
-                <label class="d-flex flex-column p-2">
-                    <input type="text" required/>
-                    <span>Your Name</span>
-                </label>
+                <div class="col-12">
+                    <label class="p-2">
+                        <input class="" type="text" required/>
+                        <span>Your Name</span>
+                    </label>
+                </div>
 
-                <label class="d-flex flex-column p-2">
-                    <input type="number" required/>
-                    <span>Your Phone Number</span>
-                </label>
+                <div class="col-12">
+                    <label class="p-2">
+                        <input type="number" required/>
+                        <span>Your Phone Number</span>
+                    </label>
+                </div>
                 
-                <label class="d-flex flex-column p-2">
-                    <input type="email" required/>
-                    <span>Your Email</span>
-                </label>
-
-                <label class="my-4 d-flex flex-column p-2">
-                    <textarea class="rounded" cols="80" rows="0" aria-required="true" aria-invalid="false" placeholder="Add up any informations as you want.." required></textarea>
-                </label>
+                <div class="col-12">
+                    <label class="p-2">
+                        <input type="email" required/>
+                        <span>Your Email</span>
+                    </label>
+                </div>
+                
+                <div class="col-12">
+                    <label class="my-4 p-2">
+                        <textarea class="rounded" rows="2" cols="32" aria-required="true" aria-invalid="false" placeholder="Add up any informations as you want.." required></textarea>
+                    </label>
+                </div>
 
             </form>
 
@@ -92,6 +100,10 @@ export default {
         color: #fff;
     }
 
+    textarea{
+        width: 100%;
+    } 
+
     label{
         margin: 2rem;
         color: #7900b2;
@@ -100,12 +112,13 @@ export default {
     }
 
     input{
+        /* width: 60%; */
         border: none;
         background-color: #000;
         border-bottom: 2px solid #fff;
         color: #fff;
         
-        padding: 10px 3rem;
+        padding: 10px 5rem;
         
         outline: 0;
 

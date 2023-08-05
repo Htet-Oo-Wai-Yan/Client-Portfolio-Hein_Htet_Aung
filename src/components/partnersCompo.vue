@@ -5,11 +5,15 @@
             <h3 class="fw-bold my-3">Our trustworthy Partners</h3>
         </div>
 
-        <div class="partners-logo d-flex justify-content-between align-items-center m-4">
-            <img class="logo" src="../assets/project_imges/amazing.png" alt="partner-logo"/>
-            <img class="logo" src="../assets/project_imges/Dope.png" alt="partner-logo"/>
-            <img class="logo" src="../assets/project_imges/FIggy.png" alt="partner-logo"/>
-            <img class="logo" src="../assets/project_imges/wow.png" alt="partner-logo"/>
+        <div class="partners-logo d-flex justify-content-center align-items-center my-4 mx-auto row">
+            <img class="logo col-sm-12 col-lg-4 my-4" src="../assets/project_imges/amazing.png" alt="partner-logo"/>
+            <img class="logo col-sm-12 col-lg-4 my-4" src="../assets/project_imges/Dope.png" alt="partner-logo"/>
+            <img class="logo col-sm-12 col-lg-4 my-4" src="../assets/project_imges/FIggy.png" alt="partner-logo"/>
+            <img class="logo col-sm-12 col-lg-4 my-4" src="../assets/project_imges/wow.png" alt="partner-logo"/>
+            <img class="logo col-sm-12 col-lg-4 my-4" src="../assets/project_imges/grim-reaper.png" alt="partner-logo"/>
+            <img class="logo col-sm-12 col-lg-4 my-4" src="../assets/project_imges/toonnet.png" alt="partner-logo"/>
+            <img class="logo col-sm-12 col-lg-4 my-4" src="../assets/project_imges/Chill.png" alt="partner-logo"/>
+            <img class="logo col-sm-12 col-lg-4 my-4" src="../assets/project_imges/copy-fusion.jpg" alt="partner-logo"/>
         </div>
     </div>
 </template>
